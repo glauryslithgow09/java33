@@ -1,0 +1,63 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function pintar(objeto, col) {
+            objeto.style.backgroundColor = col;
+        }
+    </script>
+
+    <table border="1">
+        <tr>
+            <td onMouseOver="pintar(this,'#E9967A')" onMouseOut="pintar(this,'#fff')">
+                <a href="https://mail.google.com/mail/u/0/">Gmail</a>
+            </td>
+            <td onMouseOver="pintar(this,'#F08080')" onMouseOut="pintar(this,'#fff')"><a href="https://espanol.yahoo.com/?p=us">Yahoo</a></td>
+            <td onMouseOver="pintar(this,'#CD5C5C')" onMouseOut="pintar(this,'#fff')"><a href="https://cuentasegura.com/outlook/iniciar-sesion-hotmail-crear-cuenta-hotmail-correo/">Hotmail</a></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body onLoad="activarPrimerControl()">
+
+    <script>
+        function activarPrimerControl() {
+
+            alert('Registrate YA con nosotros');
+
+        } {
+            document.getElementById('nombre').focus();
+        }
+    </script>
+
+    <form>
+        Ingrese su nombre:
+        <input type="text" id="nombre"><br> Ingrese su edad:
+        <input type="text" id="edad"><br> Ingrese su mail:
+        <input type="text" id="nombre"><br> Ingrese su Telefono:
+        <input type="text" id="nombre"><br>
+        <input type="button" value="Registrar">
+    </form>
+
+</body>
+
+</html>
